@@ -1,6 +1,8 @@
 # pyrho_replicate
 
 
+## run process*.sh <pop> <chr>
+## test run*demo.sh <pop> <chr>
 conda activate smcpp_env
 module load BCFtools/1.11-GCC-10.2.0
 module load SAMtools/1.21-GCC-12.2.0
