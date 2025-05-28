@@ -1,6 +1,7 @@
 # pyrho_replicate
 
-
+extract pop vcf first
+then
 ## run process*.sh {pop} {chr}
 ## test run*demo.sh {pop} {chr}
 conda activate smcpp_env
