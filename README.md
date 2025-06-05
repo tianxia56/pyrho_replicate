@@ -14,6 +14,7 @@ https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessibl
 Alignment with Spence & Song (2019) for SMC++ and PyRhO Preparation:
 The paper's workflow involves:
 	1. Data QC & Phasing: (User mentioned this is done prior to these scripts):
+ 
 
 1. 1000 Genomes Project Phase 3 Data: They started with this dataset.
 2. Exclusion of Related Individuals: They removed individuals to ensure a set of unrelated samples within each population.
@@ -28,13 +29,7 @@ The paper's workflow involves:
 	○ Centromeres: They excluded centromeric regions.
 	○ Telomeres: They excluded telomeric regions.
 	○ Human Leukocyte Antigen (HLA) region: This region on chromosome 6 is known for its extreme polymorphism, complex LD patterns, and strong selection, which can interfere with standard recombination map inference. They explicitly excluded the HLA region (chr6:28,477,797–33,448,354 in hg19).
-Chromosome 8 Inversion Polymorphism: They excluded a large polymorphic inversion region on chromosome 8 (chr8:8,100,000–11,900,000 in hg19), as inversions suppress recombination in heterozygotes and create distinct LD patterns.![image](https://github.com/user-attachments/assets/30a55ee3-2454-43d9-8ca1-cebf44d6d328)
-
-
-
-
-
-
+Chromosome 8 Inversion Polymorphism: They excluded a large polymorphic inversion region on chromosome 8 (chr8:8,100,000–11,900,000 in hg19), as inversions suppress recombination in heterozygotes and create distinct LD patterns.
 
 
 
